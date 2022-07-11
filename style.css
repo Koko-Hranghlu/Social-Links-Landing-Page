@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  -webkit-tap-highlight-color:transparent;
+  color: white;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+/* main container */
+.container{
+  background: linear-gradient(#7474BF,#348AC7);
+  border: 2px solid white;
+  border-radius: 5px;
+  width: min(95vw,481px);
+  padding: 30px;
+}
+
+/* header */
+header {
+  margin-bottom: 20px;
+  color: white;
+}
+
+header img{
+  width: 30%;
+  aspect-ratio:1/1;
+  border-radius: 50%;
+  object-fit:cover;
+  margin-bottom: 1rem;
+}
+
+/* main-link section */
+section.main-link a {
+  border:2px solid white;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 25px;
+  padding: 15px 0px;
+  font-size: 1.35rem;
+}
+
+section.main-link a:hover,
+section.main-link a:focus{
+  background: white;
+  color: #7474BF;
+}
+
+/* side-link section */
+section.side-link {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+section.side-link a {
+  transition: transform 0.3s ease;
+  font-size: 1.6rem;
+}
+
+section.side-link a:hover {
+  transform: scale(1.3);
+}
+
+
+
+
+
